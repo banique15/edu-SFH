@@ -1,0 +1,89 @@
+import type { LessonContentData } from '../types';
+import { registerLessonContent } from '../index';
+
+const lessonContent: LessonContentData = {
+	goalNumber: 5,
+	artForm: 'Drama' as const,
+	gradeLevel: '9-12' as const,
+	title: "DRAMA",
+	duration: "",
+	materials: [
+  {
+    "name": "Selection of scripts or short plays centered around water and sanitation themes, tailored to age group",
+    "isOptional": false
+  },
+  {
+    "name": "Copies of [scripts](https://docs.google.com/document/d/1J8cX34olrxxkvtpTjVBINUVmnFX7DkPyu4ibg00cmCM/edit?usp=drive_link) for each student, ideally with roles clearly marked",
+    "isOptional": false
+  },
+  {
+    "name": "Space for performance",
+    "isOptional": false
+  },
+  {
+    "name": "Whiteboard or large chart paper",
+    "isOptional": false
+  },
+  {
+    "name": "Markers",
+    "isOptional": false
+  },
+  {
+    "name": "Paper or notebooks",
+    "isOptional": false
+  },
+  {
+    "name": "Pens/pencils",
+    "isOptional": false
+  },
+  {
+    "name": "\\[Optional\\] Simple props",
+    "isOptional": false
+  }
+],
+	introduction: "Begin with a brief, impactful video clip showcasing either\n\n* The beauty of pristine water environments.  \n  * [Planet Earth II \\- Islands: The Great Blue](https://www.youtube.com/watch?v=KkhGT997hjs)  \n  * [Crystal Clear Blue Waters At Crater Lake National Park](https://www.youtube.com/watch?v=C_9D3LeKlsg)  \n  * [Most Beautiful Waterfalls on Earth](https://www.youtube.com/watch?v=wIiri4wePAY)  \n* The stark reality of water scarcity or pollution.  \n  * [Pollution Endangers Bangladesh’s Rivers](https://www.youtube.com/watch?v=WRYRopQIotE)  \n  * [Water Doesn’t Come from a Tap](https://www.youtube.com/watch?v=lDPkFykvZjc)  \n  * [Mexico City residents struggle with worsening water crisis](https://www.pbs.org/video/water-crisis-1709500629/)  \n* A success story of a community gaining access to clean water/sanitation.  \n  * [Plateau state gets a solar-driven motorized water facility and WASH facilities](https://www.youtube.com/watch?v=MVjwIaik3qg)  \n  * [Young African Girl Finally Gets Clean Water](https://www.youtube.com/watch?v=cQCsUDyGfP0)  \n  * [Water is Life: Rural Empowerment Success Story](https://www.youtube.com/watch?v=vfhgkRPXUqU)\n\n\tRe-introduce Global Goal 6 if needed: Ensure availability and sustainable management of water and sanitation for all.  \n\tStart an interactive Q\\&A with students, asking questions like:\n\n* Why do YOU think clean water is important?  \n  * Challenge students to think beyond just drinking, hygiene, health, etc.)  \n* Have you ever experienced a time when water WASN’T readily available?  \n  * Travel, camping, even brief outages at home  \n* What’s the grossest thing you can imagine about NOT having proper sanitation?  \n  * Gets students thinking about the ‘ick’ factor, but keep it appropriate.",
+	steps: [
+  {
+    "title": "Readers Theater for a Global Goal 6",
+    "content": "**(30-60 MINUTES)**"
+  },
+  {
+    "title": "Script and Role Assignment",
+    "content": "Pre-select scripts aligned with Global Goal 6\\.\n\n* See [pre-written scripts](https://docs.google.com/document/d/1J8cX34olrxxkvtpTjVBINUVmnFX7DkPyu4ibg00cmCM/edit?usp=sharing) for reference, or source your own\n\n\tChoose scripts based on the number of students in the class, and try to assign one role per student.\n\n* If there are fewer roles than students, consider doubling up on some minor roles or creating additional “ensemble” roles that contribute to the overall atmosphere or provide sound effects.\n\n\tStudents can also be assigned the role of “directors,” responsible for providing constructive feedback to the performers. This can include observations about clarity of speech, emotional expression, characterization, and overall effectiveness of the scene.  \n\tPotential challenges and how to address them:\n\n* *Shy Students:* Offer alternative roles like narrator, ensemble, or stage manager if students are less comfortable with acting.  \n* *Large Cast Scripts:* For scripts with many roles, consider adapting the script or creating additional ensemble roles to ensure everyone has a part.\n\n\tClearly mark the roles on the scripts, highlighting or underlining each character’s lines to facilitate reading and avoid confusion during rehearsal time.  \n\tEncourage students to discuss their characters’ motivations, emotions, and relationships to other characters before performing.  \n\tEmphasize the importance of teamwork and collaboration, and remind students to offer constructive feedback and encouragement to their peers."
+  },
+  {
+    "title": "Rehearsal and Performance",
+    "content": "Begin by allowing students a short amount of time to read through their scripts, either individually or within their groups.  \n\tEncourage them to highlight/underline their lines, make short notes about their character’s emotions and motivations, and identify any challenging vocabulary or phrases.  \nDepending on the complexity, length of scripts, and time constraints, decide if students get time to practice beforehand, or if the spontaneity of a cold read is more fitting.\n\nEmphasize that the focus of Reader’s Theater is on the power of the spoken word and the actors’ ability to bring the characters and story to life through their voices and expressions.  \n\tArrange chairs or create a designated performance area in the classroom. You can use a music stand or podium for scripts if available.  \n\tIf desired, provide simple props like hats, scarves, or glasses to help differentiate characters and add a visual element to the performance.  \n\tEncourage students to experiment with different vocal tones, pitches, and volumes to convey their character’s emotions and personalities.  \n\tRemind them to project their voices clearly so the audience can hear and understand the dialogue.  \n\tWhile the focus is on vocal delivery, encourage students to use subtle gestures and facial expressions to enhance their characterization and bring the scene to life."
+  },
+  {
+    "title": "Post-Performance Analysis",
+    "content": "After all groups have performed, gather the class together for a comprehensive discussion that connects the individual performances to the broader themes of Global Goal 6\\. Ask questions such as:\n\n* Across all the scenes, which character or situation resonated with you the most?  \n* Were there any moments in the performances that particularly moved you or made you think differently about a certain issue?  \n* What common challenges or obstacles did you notice across the different scenes?  \n* How did the characters’ actions or words reflect the broader challenges related to clean water and sanitation on a global scale?  \n* Did any of the conflicts presented resonate with your own experiences or observations?  \n* Were there any scenes that offered a sense of hope or presented potential solutions to the challenges portrayed?  \n* What were some of the actions or approaches suggested in the scripts that could contribute to achieving Global Goal 6?  \n* Even though these were fictional stories, can you identify any real-world parallels or examples of similar challenges and solutions?"
+  }
+],
+	reflectionQuestions: [
+  "How did watching the Reader’s Theater performances impact your understanding of the importance of clean water and sanitation?",
+  "Which character or situation across all the scenes resonated with you the most, and why?",
+  "Were there any moments in the performances that particularly moved you or made you think differently about a certain issue related to Global Goal 6?",
+  "How did the actors’ vocal delivery and emotional expression bring the characters and their struggles to life?",
+  "What common challenges or obstacles related to clean water and sanitation did you notice across the different scenes?",
+  "How did the characters’ actions or words reflect the broader challenges related to clean water and sanitation on a global scale?",
+  "Did any of the conflicts presented in the performances resonate with your own experiences or observations?",
+  "Were there any scenes that offered a sense of hope or presented potential solutions to the challenges portrayed?",
+  "How did the performances help you connect with the human element of the clean water and sanitation crisis?",
+  "Did any of the scenes challenge your assumptions or make you think about the issue in a new way?",
+  "What are some of the key takeaways from the performances that you think are important for others to understand about clean water and sanitation?"
+],
+	assessmentCriteria: [
+  "Consistent and enthusiastic involvement in all phases of the lesson, including the initial video/discussion, script reading, rehearsal, and class discussion.",
+  "Comprehension of Global Goal 6 and its targets and core concepts (e.g., water scarcity, pollution, sanitation access, ecosystem health). This will be evidenced through the thematic content and character portrayal within the Reader’s Theater scenes and the verbal explanations.",
+  "How clearly and powerfully students’ vocal delivery and emotional expression communicated the message of the scene. Did the reading successfully evoke thought or empathy in the audience regarding water issues?",
+  "Ability to use vocal tone, pacing, and subtle gestures to effectively differentiate between characters and bring them to life during the reading.",
+  "Ability to work effectively within groups, demonstrating active listening, responsive reading, and a cohesive ensemble effort during the Reader’s Theater performance.",
+  "Nuance and depth of understanding demonstrated in reflections, particularly concerning the role of storytelling in understanding global water challenges and inspiring action.",
+  "Ability to identify and articulate parallels between the fictional scenarios and real-world challenges related to clean water and sanitation during discussions."
+],
+};
+
+registerLessonContent(lessonContent);
+
+export default lessonContent;
