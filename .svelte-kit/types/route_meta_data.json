@@ -1,0 +1,34 @@
+{
+	"/(app)": [
+		"src/routes/(app)/+page.server.ts"
+	],
+	"/": [],
+	"/(app)/about": [],
+	"/(app)/account": [
+		"src/routes/(app)/account/+page.ts"
+	],
+	"/(app)/account/edit": [
+		"src/routes/(app)/account/edit/+page.ts"
+	],
+	"/admin": [],
+	"/admin/goals": [],
+	"/admin/lessons": [],
+	"/admin/users": [],
+	"/(app)/curriculum": [],
+	"/dev": [],
+	"/(app)/goals": [
+		"src/routes/(app)/goals/+page.server.ts"
+	],
+	"/(app)/goals/[slug]": [
+		"src/routes/(app)/goals/[slug]/+page.server.ts"
+	],
+	"/(app)/lessons": [],
+	"/(app)/lessons/[slug]": [
+		"src/routes/(app)/lessons/[slug]/+page.server.ts"
+	],
+	"/login": [],
+	"/(app)/signup": [],
+	"/(app)/subjects/[slug]": [
+		"src/routes/(app)/subjects/[slug]/+page.ts"
+	]
+}
