@@ -71,6 +71,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent horizontal scroll on mobile only */
+@media (max-width: 1023px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+
 /* Better focus indicators for accessibility */
 *:focus-visible {
   outline: 2px solid var(--color-primary);

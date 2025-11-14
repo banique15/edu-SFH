@@ -52,7 +52,7 @@
 <Grades />
 
 <!-- Student Photo Section -->
-<section class="relative h-[545px] overflow-hidden pt-12">
+<section class="relative h-[545px] overflow-hidden pt-12 w-full max-w-full">
 	<img
 		src="/Home/home-desktop-faq.png"
 		alt="Students engaging in arts education"
@@ -61,8 +61,8 @@
 </section>
 
 <!-- FAQ Section -->
-<section class="bg-white py-[80px] px-6">
-	<div class="max-w-7xl mx-auto">
+<section class="bg-white py-[80px] px-6 overflow-x-hidden">
+	<div class="max-w-7xl mx-auto w-full">
 		<h2
 			class="text-[48px] font-normal leading-[0.9] tracking-[-0.48px] text-black mb-[58px]"
 		>

@@ -14,8 +14,8 @@
 </script>
 
 <!-- Lessons by Grade Section -->
-<section class="relative h-[182px] mb-[64px] px-6">
-	<div class="max-w-7xl mx-auto py-[64px]">
+<section class="relative h-[182px] mb-[64px] px-6 lg:overflow-x-visible overflow-x-hidden">
+	<div class="max-w-7xl mx-auto py-[64px] w-full">
 		<div class="flex justify-between w-full flex-col md:flex-row">
 			<div class="flex gap-[25px] relative flex-col">
 				<div>

@@ -52,10 +52,10 @@
 
 <!-- Header Navigation -->
 <header class="relative h-auto lg:h-[152px] z-[100] max-w-7xl mx-auto">
-	<!-- Mobile/Tablet Header: Full-width bar (green or white) -->
-	<div class="lg:hidden w-full px-4 py-3 flex items-center justify-between mt-6 rounded-2xl transition-all duration-300 ease-in-out" class:bg-[#349552]={usePrimaryGreenHeader} class:bg-white={!usePrimaryGreenHeader}>
+	<!-- Mobile/Tablet Header: Full-width bar (green background with rounded corners) -->
+	<div class="lg:hidden w-full h-[67px] flex items-center justify-between bg-[#349552] rounded-[20px] px-[15.59px] py-[11.5px] my-[20px] transition-all duration-300 ease-in-out">
 		<!-- Logo -->
-		<a href="/" class="h-12 w-auto hover:opacity-90 flex-shrink-0 relative">
+		<a href="/" class="h-[40px] w-[112px] hover:opacity-90 flex-shrink-0 relative">
 			<!-- White logo for green background -->
 			<svg
 				class="h-full w-auto transition-opacity duration-300 ease-in-out absolute top-0 left-0"
@@ -148,11 +148,11 @@
 		<!-- Hamburger Menu Button -->
 		<button
 			onclick={toggleMobileMenu}
-			class="btn btn-ghost btn-sm text-black hover:bg-black/10 transition-all duration-300 ease-in-out"
+			class="w-[36px] h-[36px] flex items-center justify-center text-white hover:bg-white/10 rounded-lg transition-all duration-300 ease-in-out"
 			aria-label="Toggle menu"
 		>
-			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+			<svg width="27" height="18" viewBox="0 0 27 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0 0H27V3H0V0ZM0 7.5H27V10.5H0V7.5ZM0 15H27V18H0V15Z" fill="white"/>
 			</svg>
 		</button>
 	</div>
@@ -332,74 +332,77 @@
 		<input type="checkbox" id="mobile-drawer" class="drawer-toggle" checked={mobileMenuOpen} onchange={(e) => mobileMenuOpen = e.currentTarget.checked} />
 		<div class="drawer-side">
 			<label for="mobile-drawer" class="drawer-overlay" onclick={closeMobileMenu}></label>
-			<ul class="menu p-4 w-80 min-h-full bg-base-100 text-base-content">
-				<!-- Close button -->
-				<li class="mb-4">
-					<button onclick={closeMobileMenu} class="btn btn-ghost btn-sm justify-start">
-						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-						</svg>
-						Close
-					</button>
-				</li>
-
-				<!-- Navigation Links -->
-				<li>
+			<!-- Menu with green background and rounded corners -->
+			<div class="bg-[#349552] w-[332px] h-[310px] rounded-[20px] mt-[20px] mr-[30.5px] relative">
+				<!-- Menu Items - close together -->
+				<div class="absolute left-[20.89px] top-[93px] flex flex-col gap-[8px]">
+					<a
+						href="/"
+						onclick={closeMobileMenu}
+						class="text-white text-[20px] font-normal leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
+					>
+						Home
+					</a>
 					<a
 						href="/curriculum"
 						onclick={closeMobileMenu}
-						class:font-bold={isActive('/curriculum')}
+						class="text-white text-[20px] font-normal leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
 					>
 						Curriculum
 					</a>
-				</li>
-				<li>
 					<a
 						href="/about"
 						onclick={closeMobileMenu}
-						class:font-bold={isActive('/about')}
+						class="text-white text-[20px] font-normal leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
 					>
 						About
 					</a>
-				</li>
-
-				<!-- SingForHope.org link -->
-				<li>
 					<a
-						href="https://singforhope.org"
-						target="_blank"
-						rel="noopener noreferrer"
+						href="/about"
 						onclick={closeMobileMenu}
+						class="text-white text-[20px] font-normal leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
 					>
-						singforhope.org
-						<svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 4L4 12M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
+						Contributors
 					</a>
-				</li>
+				</div>
 
-				<li><hr class="my-2" /></li>
+				<!-- Sign In / Logout - left aligned with spacing above -->
+				<div class="absolute left-[20.89px] top-[210px]">
+					{#if $authStore}
+						<button
+							onclick={() => { authStore.signOut(); closeMobileMenu(); }}
+							class="text-white text-[20px] font-medium leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
+						>
+							Logout
+						</button>
+					{:else}
+						<a
+							href="/login"
+							onclick={closeMobileMenu}
+							class="text-white text-[20px] font-medium leading-[24px] tracking-[0.2px] hover:opacity-80 transition-opacity"
+						>
+							Sign In
+						</a>
+					{/if}
+				</div>
 
-				<!-- Sign In / User Menu -->
-				{#if $authStore}
-					<li>
-						<span class="text-sm opacity-60">{$authStore.email}</span>
-					</li>
-					<li>
-						<a href="/account" onclick={closeMobileMenu}>My Account</a>
-					</li>
-					<li>
-						<button onclick={() => { authStore.signOut(); closeMobileMenu(); }}>Logout</button>
-					</li>
-				{:else}
-					<li>
-						<a href="/signup" onclick={closeMobileMenu}>Sign Up</a>
-					</li>
-					<li>
-						<a href="/login" onclick={closeMobileMenu}>Sign In</a>
-					</li>
-				{/if}
-			</ul>
+				<!-- Divider Line - positioned at 259.14px from top -->
+				<div class="absolute left-[17.52px] top-[259.14px] w-[293.5px] h-[1px] bg-white/30"></div>
+
+				<!-- SingForHope.org link - positioned at 263.84px from top, 20.89px from left -->
+				<a
+					href="https://singforhope.org"
+					target="_blank"
+					rel="noopener noreferrer"
+					onclick={closeMobileMenu}
+					class="absolute left-[20.89px] top-[263.84px] flex items-center gap-[14.71px] text-white/75 text-[16px] font-normal leading-[29.42px] hover:opacity-80 transition-opacity"
+				>
+					singforhope.org
+					<svg class="w-4 h-4 rotate-[-45deg]" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 4L4 12M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
 		</div>
 	</div>
 </header>

@@ -8,6 +8,9 @@
         "/Home/home-desktop-hero-frame-4.png",
     ];
 
+    // Use desktop images for mobile until mobile-specific images are added
+    const mobileHeroImages: string[] = heroImages;
+
     let currentSlide = $state(0);
     let intervalId: ReturnType<typeof setInterval> | null = null;
 
@@ -27,7 +30,7 @@
 
 <!-- Hero Section -->
 <section
-    class="z-10 relative min-h-[400px] md:min-h-[600px] lg:min-h-[771px] overflow-hidden bg-gradient-to-br from-[#fdf9f1] to-[#f5f0e8] lg:-mt-[200px] px-6 lg:py-12"
+    class="z-10 relative min-h-[400px] md:min-h-[600px] lg:min-h-[771px] overflow-hidden bg-gradient-to-br from-[#fdf9f1] to-[#f5f0e8] lg:-mt-[200px] px-6 lg:py-12 w-full max-w-full"
 >
     <div
         class="flex flex-col md:flex-row justify-between max-w-7xl mx-auto pt-12 md:pt-20 lg:pt-[220px] pb-8 lg:pb-0"

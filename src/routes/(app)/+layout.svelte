@@ -25,13 +25,13 @@
 	});
 </script>
 
-<div class="bg-[#fdf9f1] min-h-screen">
-	<div class=" px-6">
+<div class="bg-[#fdf9f1] min-h-screen lg:overflow-x-visible overflow-x-hidden">
+	<div class="px-6">
 		<PublicHeader />
 	</div>
 
-	<main class="min-h-[calc(100vh-4rem)] md:min-h-[calc(100vh-6rem)] lg:min-h-[calc(100vh-188px)] z-10">
-		{@render children()}	
+	<main class="min-h-[calc(100vh-4rem)] md:min-h-[calc(100vh-6rem)] lg:min-h-[calc(100vh-188px)] z-10 lg:overflow-x-visible overflow-x-hidden">
+		{@render children()}
 	</main>
 	<Footer />
 </div>

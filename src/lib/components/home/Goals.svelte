@@ -26,8 +26,8 @@
 </script>
 
 <!-- Lessons by Goal Section -->
-<section class="py-8 md:py-12 lg:py-[60px] w-full mx-auto bg-white px-6">
-    <div class="max-w-7xl mx-auto ">
+<section class="py-8 md:py-12 lg:py-[60px] w-full mx-auto bg-white px-6 lg:overflow-x-visible overflow-x-hidden">
+    <div class="max-w-7xl mx-auto w-full">
         <h2
             class="text-3xl sm:text-4xl md:text-5xl lg:text-[60px] font-normal leading-[0.9] tracking-[-0.03em] md:tracking-[-0.05em] lg:tracking-[-0.6px] text-black mb-6 md:mb-8 lg:mb-[60px]"
         >
