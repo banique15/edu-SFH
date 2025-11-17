@@ -8,6 +8,7 @@
 
         <!-- Creative Writing - Green with custom shape -->
         <a href="/subjects/creative-writing" class="absolute cursor-pointer transition-opacity hover:opacity-90" style="height: 310px; left: 20px; top: 101px; width: 353px;">
+            <!-- SVG shape with solid background -->
             <svg
                 class="absolute inset-0 w-full h-full"
                 viewBox="0 0 353 310"
@@ -20,20 +21,22 @@
                     fill="#349552"
                 />
             </svg>
-            <p class="absolute font-normal h-[85px] leading-[0.9] left-[29px] text-[48px] text-white top-[31px] tracking-[-0.48px] w-[275px] z-10">
-                Creative<br />Writing
-            </p>
-            <div class="absolute left-[20px] rounded-[14px] top-[290px] w-[233px] h-[121px] overflow-hidden z-10">
+            <!-- Image positioned in the lower left cutout area -->
+            <div class="absolute bottom-0 left-0 w-[244px] h-[135px] pt-3 pr-3 z-10">
                 <img
                     src="/Home/subject1.png"
                     alt="Creative Writing"
-                    class="w-full h-full object-cover rounded-[14px]"
+                    class="w-full h-full object-cover rounded-[12px]"
                 />
             </div>
+            <p class="absolute font-normal h-[85px] leading-[0.9] left-[29px] text-[48px] text-white top-[31px] tracking-[-0.48px] w-[275px] z-20">
+                Creative<br />Writing
+            </p>
         </a>
 
         <!-- Dance & Movement - Blue with custom shape -->
         <a href="/subjects/dance" class="absolute cursor-pointer transition-opacity hover:opacity-90" style="height: 232px; left: 20px; top: 425px; width: 353px;">
+            <!-- SVG shape with solid background -->
             <svg
                 class="absolute inset-0 w-full h-full"
                 viewBox="0 0 353 232"
@@ -46,20 +49,22 @@
                     fill="#0A97D9"
                 />
             </svg>
-            <p class="absolute font-normal h-[88px] leading-[0.9] left-[27px] text-[48px] text-white top-[15px] tracking-[-0.48px] w-[275px] z-10">
-                Dance &<br />Movement
-            </p>
-            <div class="absolute left-[20px] rounded-[14px] top-[145px] w-[218px] h-[87px] overflow-hidden z-10">
+            <!-- Image positioned in the lower left cutout area -->
+            <div class="absolute bottom-0 left-0 w-[195px] h-[116px] pt-3 pr-3 z-10">
                 <img
                     src="/Home/subject4.png"
                     alt="Dance & Movement"
-                    class="w-full h-full object-cover rounded-[14px]"
+                    class="w-full h-full object-cover rounded-[12px]"
                 />
             </div>
+            <p class="absolute font-normal h-[88px] leading-[0.9] left-[27px] text-[48px] text-white top-[15px] tracking-[-0.48px] w-[275px] z-20">
+                Dance &<br />Movement
+            </p>
         </a>
 
         <!-- Visual Art - Dark Blue with custom shape (rotated) -->
         <a href="/subjects/visual-arts" class="absolute cursor-pointer transition-opacity hover:opacity-90" style="height: 190px; left: 20px; top: 667px; width: 353px;">
+            <!-- SVG shape with solid background -->
             <svg
                 class="absolute inset-0 w-full h-full"
                 viewBox="0 0 353 190"
@@ -72,20 +77,22 @@
                     fill="#19486A"
                 />
             </svg>
-            <p class="absolute font-normal h-[44px] leading-[0.9] left-[31px] text-[48px] text-white top-[113px] tracking-[-0.48px] w-[275px] z-10">
-                Visual Art
-            </p>
-            <div class="absolute right-[20px] rounded-[17px] top-[0px] w-[170px] h-[79px] overflow-hidden z-10">
+            <!-- Image positioned in the upper right cutout area -->
+            <div class="absolute top-0 right-0 w-[158px] h-[117px] pb-3 z-10">
                 <img
                     src="/Home/subject2.png"
                     alt="Visual Art"
-                    class="w-full h-full object-cover rounded-[17px]"
+                    class="w-full h-full object-cover rounded-[12px]"
                 />
             </div>
+            <p class="absolute font-normal h-[44px] leading-[0.9] left-[31px] text-[48px] text-white top-[113px] tracking-[-0.48px] w-[275px] z-20">
+                Visual Art
+            </p>
         </a>
 
         <!-- Music - Red with custom shape -->
         <a href="/subjects/music" class="absolute cursor-pointer transition-opacity hover:opacity-90" style="height: 229px; left: 20px; top: 870px; width: 353px;">
+            <!-- SVG shape with solid background -->
             <svg
                 class="absolute inset-0 w-full h-full"
                 viewBox="0 0 353 229"
@@ -98,20 +105,22 @@
                     fill="#FF3A21"
                 />
             </svg>
-            <p class="absolute font-normal h-[44px] leading-[0.9] left-[34px] text-[48px] text-white top-[158px] tracking-[-0.48px] w-[275px] z-10">
-                Music
-            </p>
-            <div class="absolute left-[20px] rounded-[14px] top-[0px] w-[223px] h-[96px] overflow-hidden z-10">
+            <!-- Image positioned in the upper left cutout area -->
+            <div class="absolute top-0 left-0 w-[217px] h-[89px] pb-3 z-10">
                 <img
                     src="/Home/subject3.png"
                     alt="Music"
-                    class="w-full h-full object-cover rounded-[14px]"
+                    class="w-full h-full object-cover rounded-[12px]"
                 />
             </div>
+            <p class="absolute font-normal h-[44px] leading-[0.9] left-[34px] text-[48px] text-white top-[158px] tracking-[-0.48px] w-[275px] z-20">
+                Music
+            </p>
         </a>
 
         <!-- Drama - Pink with custom shape -->
         <a href="/subjects/drama" class="absolute cursor-pointer transition-opacity hover:opacity-90" style="height: 232px; left: 20px; top: 1113px; width: 353px;">
+            <!-- SVG shape with solid background -->
             <svg
                 class="absolute inset-0 w-full h-full"
                 viewBox="0 0 353 232"
@@ -124,16 +133,17 @@
                     fill="#DD1367"
                 />
             </svg>
-            <p class="absolute font-normal h-[44px] leading-[0.9] left-[30px] text-[48px] text-white top-[25px] tracking-[-0.48px] w-[275px] z-10">
-                Drama
-            </p>
-            <div class="absolute right-[20px] rounded-[14px] top-[112px] w-[258px] h-[120px] overflow-hidden z-10">
+            <!-- Image positioned in the lower right cutout area -->
+            <div class="absolute bottom-0 right-0 w-[245px] h-[144px] pt-3 z-10">
                 <img
                     src="/Home/subject5.png"
                     alt="Drama"
-                    class="w-full h-full object-cover rounded-[14px]"
+                    class="w-full h-full object-cover rounded-[12px]"
                 />
             </div>
+            <p class="absolute font-normal h-[44px] leading-[0.9] left-[30px] text-[48px] text-white top-[25px] tracking-[-0.48px] w-[275px] z-20">
+                Drama
+            </p>
         </a>
     </section>
 
