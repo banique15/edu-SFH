@@ -101,26 +101,43 @@
 			
 						<!-- Section 2: Image Blocks -->
 						<div class="flex flex-col gap-12 items-center w-full max-w-sm mx-auto">
-							<!-- Image Collage -->
-							<div class="relative w-[353px] h-[202px]">
-								<!-- Main background image -->
-								<img
-									src="/About/about-desktop-block-1.png"
-									alt="Students learning through arts"
-									class="absolute top-0 left-0 w-[353px] h-[202px] object-cover rounded-[10px]"
-								/>
-								<!-- Small overlay image bottom right -->
-								<img
-									src="/About/about-desktop-block-4.png"
-									alt="Student artwork"
-									class="absolute top-[128.5px] left-[170.8px] w-[86.9px] h-[73.4px] object-cover rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px] rounded-tr-[5px]"
-								/>
-								<!-- Small overlay image bottom left -->
-								<img
-									src="/About/about-desktop-block-5.png"
-									alt="Creative expression"
-									class="absolute top-[128.4px] left-0 w-[162px] h-[73.5px] object-cover rounded-[10px]"
-								/>
+							<!-- Image Collage - Matching Reference Layout -->
+							<div class="relative w-[353px] h-[202px] bg-[#f5f5f5] rounded-[12px]">
+								<!-- Large main image on the right (tall vertical rectangle) -->
+								<div class="absolute top-2 right-2 w-[130px] h-[198px] rounded-[8px] overflow-hidden bg-white p-1">
+									<img
+										src="/About/about-desktop-block-1.png"
+										alt="Students learning through arts"
+										class="w-full h-full object-cover rounded-[6px]"
+									/>
+								</div>
+								
+								<!-- Top left image (horizontal rectangle) -->
+								<div class="absolute top-2 left-2 w-[215px] h-[95px] rounded-[8px] overflow-hidden bg-white p-1">
+									<img
+										src="/About/about-desktop-block-4.png"
+										alt="Student artwork"
+										class="w-full h-full object-cover rounded-[6px]"
+									/>
+								</div>
+								
+								<!-- Bottom left image (more square-like rectangle) -->
+								<div class="absolute top-[103px] left-2 w-[105px] h-[97px] rounded-[8px] overflow-hidden bg-white p-1">
+									<img
+										src="/About/about-desktop-block-5.png"
+										alt="Creative expression"
+										class="w-full h-full object-cover rounded-[6px]"
+									/>
+								</div>
+								
+								<!-- Bottom center-left image (square-like) -->
+								<div class="absolute top-[103px] left-[113px] w-[104px] h-[97px] rounded-[8px] overflow-hidden bg-white p-1">
+									<img
+										src="/About/about-desktop-block-6.png"
+										alt="Arts curriculum in action"
+										class="w-full h-full object-cover rounded-[6px]"
+									/>
+								</div>
 							</div>
 			
 							<!-- Text + Image Section 1 -->
