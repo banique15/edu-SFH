@@ -189,8 +189,8 @@
 							</div>
 			
 							<!-- Scrolling Text -->
-							<div class="w-[392px] h-[60px] overflow-x-auto overflow-y-hidden relative">
-								<p class="absolute left-1/2 top-0 transform -translate-x-1/2 text-[60px] leading-[0.9] tracking-[-0.6px] text-[#349552] whitespace-nowrap w-[3062px]">
+							<div class="relative w-full h-[170px] overflow-x-auto overflow-y-hidden flex items-center">
+								<p class="text-[60px] leading-[0.9] tracking-[-0.6px] text-[#349552] whitespace-nowrap font-normal min-w-max">
 									Creating a Better World Through the Arts.
 								</p>
 							</div>
