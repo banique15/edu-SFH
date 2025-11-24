@@ -1,0 +1,93 @@
+---
+title: The Blues & The Blueprint: Music for Sustainable Communities
+gradeLevels: [9, 10, 11, 12]
+duration: "30-60 minutes"
+subject: Music
+artForm: Music
+globalGoal: 11
+---
+
+## **The Blues & The Blueprint: Music for Sustainable Communities**
+
+**(30-60 MINUTES)**
+
+**Materials:**
+
+Audio
+
+Whiteboard or large chart paper
+
+Markers
+
+Notebooks or paper
+
+Pens/Pencils
+
+**Introduction**
+
+Begin with a brief introduction to the blues.
+
+Explain the historical and cultural context of the blues, emphasizing its origins in African American communities and its role in expressing hardship, resilience, and hope.
+
+- The blues emerged in the late 19th and early 20th centuries in the Deep South of the United States, particularly in the Mississippi Delta. It originated from spirituals, work songs, field hollers, and chants of enslaved and newly freed African Americans.
+- The blues became a way to express the hardships of life: poverty, discrimination, injustice, and lost love. It also served as a form of resilience, a way to find hope and strength in the face of adversity.
+- Key figures like Robert Johnson, Bessie Smith, and Muddy Waters played a crucial role in shaping the blues sound and spreading its influence.
+- The blues is more than just music; it is a way of telling a story and expressing emotion.
+
+Discuss the basic structure of the blues (12-bar blues, AAB lyric form, blues scale).
+
+- *12-Bar Blues:* The most common blues structure consists of 12 bars (measures). It follows a specific chord progression: I-I-I-I, IV-IV-I-I, V-IV-I-V (or I). This progression creates a sense of tension and release that is characteristic of the blues.
+  - [Simple 12-Bar Blues Backing Track](https://www.youtube.com/watch?v=W3AbKYn0gwY) to follow the progression.
+- *AAB Lyric Form:* Blues lyrics typically follow an AAB pattern. The first line (A) is a statement of a problem or feeling. The second line (A) repeats or slightly varies the first line. The third line (B) provides a resolution, reflection, or punchline. This form creates a sense of storytelling and emotional depth.
+- *Blues Scale (can discuss depending on class and knowledge of music):* The blues scale is a variation of the pentatonic scale with added ‘blue notes’ (flattened third, fifth, and seventh notes). These blue notes give the blues its characteristic sound, conveying a sense of melancholy and emotion.
+
+Play examples of classic blues songs, highlighting the emotional depth and storytelling aspect of the genre.
+
+*Examples (all using 12-bar blues):*
+
+- [“Cross Road Blues” by Robert Johnson](https://www.youtube.com/watch?v=GtDlZdhHRCI)
+- [“Moving” by Howlin’ Wolf](https://www.youtube.com/watch?v=AXe1HH1LK-o)
+- [“Hoochie Coochie Man” by Muddy Waters](https://www.youtube.com/watch?v=p-Ua1kqcmaY)
+- [“Hound Dog” by Big Mama Thornton](https://www.youtube.com/watch?v=BmpwvxW0gW0)
+- [“Mean Old Bedbug Blues” by Bessie Smith](https://www.youtube.com/watch?v=Vchl9yUo3Fo)
+- [“Give Me One Reason” by Tracy Chapman](https://www.youtube.com/watch?v=V6hQ9HSKlIE)
+
+Introduce or reintroduce Global Goal 11. Explain the goal’s focus on creating inclusive, safe, resilient and sustainable cities and communities.
+
+Divide students into groups and assign each group one or two specific targets from Goal 11, or allow them to focus on the Goal as a whole.
+Give each group time to research and discuss their assigned goal/targets/indicators, focusing on local relevance.
+
+`	`*Example:* Group working on target 11.6 discusses their experience with the local recycling program, and that many apartment buildings do not have access to recycling bins.
+
+Connect the blues to Global Goal 11. Explain how the blues can be a powerful tool for expressing the challenges and hopes related to sustainable cities. Emphasize that the blues has historically given voice to the underrepresented, and this lesson will use the blues to give voice to the issues surrounding sustainable cities.
+
+**Lyric Writing and Blues Structure**
+
+Guide students in writing blues lyrics related to their assigned targets.
+
+Explain the AAB lyric structure:
+
+- Line A: A statement of a problem or challenge.
+- Line A: Repeat the statement with a slight variation.
+- Line B: A resolution, reflection, punchline or expression of hope.
+
+*Examples:*
+
+- **Target 11.1** *(Affordable Housing)*
+  - Got no place to lay my head, rain comin’ through the roof//Got no place to lay my head, leaks comin’ through the roof//Wish I had a home, a shelter from the truth.
+- **Target 11.2** *(Sustainable Transportation)*
+  - Waited an hour for the bus, but it never came my way//Waited an hour for the bus, just wasted my whole day//Wish there was a train, to take my blues away.
+- **Target 11.3** *(Inclusive Urbanization)*
+  - City doesn’t hear my voice, they buildin’ without a care//City doesn’t hear my voice, they leave me standin’ there//Need a seat at the table, where everybody shares.
+- **Target 11.4** *(Cultural Heritage)*
+  - Old buildings fallin’ down, the stories fade away//Old buildings fallin’ down, nobody seems to stay//Need to save our history, for a brighter future day.
+- **Target 11.5** *(Disaster Resilience)*
+  - The floodwaters rose up high, took everything I own//The floodwaters rose up high, left me all alone//Need a stronger city, to help me find my home.
+- **Target 11.6** *(Environmental Impact)*
+  - Trash piles high in the street, the air is thick and gray//Trash piles in the street, the smell won’t go away//Need a clean city, to brighten up my day.
+- **Target 11.7** *(Green Spaces)*
+  - Concrete jungle all around, no trees for me to see//Concrete jungle all around, no place to set me free//Need a park to breathe in, beneath a shady tree.
+- **Target 11.a** *(Urban-Rural Links)*
+  - City folks don’t know the farm, the fields where food is grown//City folks don’t know the farm, the seeds that they have sown//Need to build a bridge, so we ain’t alone.
+- **Target 11.b** *(Disaster Risk Reduction)*
+  - The warnings come and go, but nobody seems to hear//The warnings come and go, we live in constant fear//Need a plan to save us, when the danger is near.

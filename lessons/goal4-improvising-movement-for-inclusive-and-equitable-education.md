@@ -1,0 +1,149 @@
+---
+title: Improvising Movement for Inclusive and Equitable Education
+gradeLevels: [9, 10, 11, 12]
+duration: "30-60 minutes"
+subject: Dance/Movement
+artForm: Dance
+globalGoal: 4
+---
+
+## **Improvising Movement for Inclusive and Equitable Education**
+**(30-60 MINUTES)**  
+**Materials**  
+Open space for movement and improvisation  
+Whiteboard or large chart paper  
+Markers  
+Paper or notebooks  
+Pens/pencils  
+\[Optional\] simple objects to represent educational tools, barriers or achievements  
+**Introduction**  
+	Divide the class into groups of 4-5.  
+	Each group will stand in a loose formation, facing each other.  
+	Instruct each group to start with one person making a simple, repetitive movement and sound (e.g., clapping hands and saying “click”).  
+	The next person will add their own movement and sound, linking it to the first person’s action (e.g., tapping their foot and saying “tock” in response to the first person’s “click”).  
+	Continue until everyone in the group is part of the “machine,” creating a chain of interconnected movements and sounds.
+
+* Encourage groups to add more complexity to their machine by:  
+  * Introducing variations in rhythm or tempo  
+  * Changing the volume or intensity of their sounds and movements.  
+  * Incorporating different levels (high, medium, low) into their movements.  
+  * Adding simple gestures or facial expressions to enhance their performance.
+
+	Emphasize the importance of listening and responding to each other’s cues. Encourage them to experiment with different ways of connecting their movements and sounds to create a cohesive and dynamic machine.  
+	Once the basic machine is established, guide groups to explore different ways of expressing its smooth functioning. They can:
+
+* Increase the speed and intensity of their movements and sounds, conveying a sense of efficiency and productivity.  
+* Smile, nod, or make eye contact with each other to show cooperation and enjoyment.  
+* Gradually add more complex movements and rhythms, demonstrating the machine's capacity for growth and adaptation.
+
+	Introduce a challenge by having one person in the group “break down” or make a mistake. The rest of the group must react and adapt, showing frustration or confusion through their movements and sounds. Encourage them to use exaggerated gestures, facial expressions, and vocalizations to express their emotions.  
+	After a brief period of breakdown, guide the group to “repair” the  machine and resume its smooth functioning. This can be represented through:	
+
+* Slowing down and carefully re-establishing their rhythm and coordination.  
+* Offering helping gestures or encouraging words to the person who "broke down."  
+* Gradually building back up to a faster tempo and more complex movements.  
+* Expressing joy and relief through smiles, laughter, and celebratory sounds and movements.
+
+	Examples of Machine Movements and Sounds
+
+* Clapping, snapping, stomping, tapping  
+* Vocalizations: humming, buzzing, clicking, chanting  
+* Arm movements: waving, circling, reaching, punching  
+* Leg movements: stepping, kicking, jumping, squatting  
+* Facial expressions: smiles, frowns, concentration, surprise
+
+	Open the floor for a group discussion. Encourage students to draw parallels between the machine activity and the learning process. Examples:
+
+* *Interconnectedness*: Just like each part of the machine relies on the others to function, successful learning requires collaboration, communication, and support between students, teachers, and the wider community.  
+* *Adaptability*: The ability of the machine to adapt to challenges and breakdowns mirrors the resilience and problem-solving skills needed in education.  
+* *Growth and Progress*: The evolution of the machine from simple to complex represents the journey of learning, where we build upon our knowledge and skills over time.  
+* *Emotions and Learning*: The incorporation of emotions into the machine's movements highlights how our feelings can impact our learning experiences. It's important to acknowledge and address these emotions to create a positive and supportive learning environment.
+
+**Improvisation Movements: Challenges and Triumphs**  
+	Using the same groups, assign each a Global Goal 4 Target.  
+	Provide prompts highlighting BOTH challenges and successes related to the Target.  
+	Examples:
+
+* *Target 4.1 \- Quality Education*  
+  * Scene 1: "The Monotonous Classroom" \- Students are slumped at desks, bored and disengaged. The teacher drones on, using outdated textbooks. The atmosphere is stagnant and lifeless.  
+  * Scene 2: "The Dynamic Learning Hub" \- The same space is now vibrant. Students collaborate, using technology and hands-on projects. The teacher acts as a facilitator, guiding exploration. Energy is high, and learning is evident.  
+  *   
+* *Target 4.2 \- Early Childhood Development*  
+  * Scene 1: "The Overcrowded Nursery" \- Children are restless and overwhelmed in a cramped, understaffed space. There are few toys, and the caregivers struggle to provide individual attention.  
+  * Scene 2: **"The Nurturing Play Space"** \- The same space is now filled with colorful, age-appropriate toys and activities. Children are engaged in imaginative play, guided by attentive caregivers. The atmosphere is calm and stimulating.  
+* *Target 4.3 \- Access to Higher Education*  
+  * Scene 1: "The Financial Barrier" \- A talented student sits dejectedly, surrounded by rejection letters from universities they can't afford. Their dreams feel out of reach.  
+  * Scene 2: "The Scholarship Celebration" \- The same student now jumps for joy, surrounded by supportive friends and family. They've received a scholarship, opening the door to higher education.  
+* *Target 4.4 \- Skills for Employment*  
+  * Scene 1: "The Job Search Struggle" \- A recent graduate wanders aimlessly, resume in hand, facing rejection after rejection due to a lack of relevant skills.  
+  * Scene 2: "The Confident Candidate" \- The same individual now walks with purpose, showcasing their newly acquired technical skills in a job interview. They exude confidence and are ready to contribute.  
+* *Target 4.5 \- Gender Equality*  
+  * Scene 1: "The Silenced Voice" \- A girl in class is hesitant to speak up, her ideas dismissed or overshadowed by male classmates.  
+  * Scene 2: "Empowerment in Action" \- The same girl now leads a group project, confidently sharing her ideas and inspiring others. The classroom is a space of equal respect and opportunity.  
+* *Target 4.6 \- Literacy and Numeracy*  
+  * Scene 1: "The Frustrated Learner" \- An adult struggles to read a simple document, feeling embarrassed and isolated. They are trapped in a cycle of illiteracy.  
+  * Scene 2: "The Lifelong Learner" \- The same adult now sits confidently in a literacy class, surrounded by supportive peers. They are empowered to learn and improve their skills.  
+* *Target 4.7 \- Education for Sustainable Development*  
+  * Scene 1: "The Wasteful Classroom" \- Students mindlessly throw away paper and plastic, unaware of their environmental impact. The room feels chaotic and disconnected from nature.  
+  * Scene 2: "The Eco-Conscious Learning Space" \- The same classroom is now transformed into a sustainable haven. Students engage in hands-on environmental projects, and the atmosphere is one of respect for the planet.  
+* *Target 4.a \- Safe and Inclusive Schools*  
+  * Scene 1: "The Isolated Student" \- A student with a disability struggles to navigate the school's physical environment and feels excluded from social activities.  
+  * Scene 2: "Belonging and Acceptance" \- The same student now participates fully in school life, thanks to accessible facilities and a welcoming, inclusive school culture.  
+* *Target 4.b \- Scholarships*  
+  * Scene 1: "Dreams Deferred" \- A talented student from a low-income family watches their peers go off to college, feeling trapped by their financial limitations.  
+  * Scene 2: "Opportunity Unlocked" \- The same student receives a life-changing scholarship, their face beaming with hope and excitement for the future.  
+* *Target 4.b \- Qualified Teachers*  
+  * Scene 1: "The Overwhelmed Educator" \- A teacher struggles to manage a large class with limited resources, feeling burnt out and unable to provide individual attention to their students.  
+  * Scene 2: "The Empowered Educator" \- The same teacher now thrives in a supportive environment, equipped with professional development opportunities and the tools they need to inspire their students.
+
+	Groups have 5-7 minutes PER SCENE. Emphasize physicality; postures, gestures, and movement quality should reflect the emotions and situations.  
+**Solo Improvisation: My Education, My Movement**  
+	All students spread out in the space. Prompt students to think about their own educational experiences, both challenges and successes.  
+	Set a piece of music and let students move freely, letting their bodies express their thoughts and feelings about education. No right or wrong way to move.  
+	Music Examples:
+
+* *Uplifting and Inspirational*  
+  * "Nuvole Bianche" by Ludovico Einaudi \- This piano piece evokes a sense of hope and possibility, encouraging students to express their dreams and aspirations for their education.  
+  * "Weightless" by Marconi Union \- Known for its calming and relaxing effects, this track can facilitate reflection and introspection on one's learning journey.  
+  * "Clair de Lune" by Claude Debussy \- A classic piano piece with a gentle, dreamlike quality that can inspire creativity and imagination about the future of education.  
+  * "Experience" by Ludovico Einaudi \- This piece builds gradually, evoking a sense of growth and transformation, perfect for expressing the journey of learning and self-discovery.  
+  * "Arrival of the Birds" by The Cinematic Orchestra \- A beautiful and uplifting piece that inspires a sense of wonder and possibility, encouraging students to explore their full potential.  
+* *Reflective and Thought-Provoking*  
+  * "Metamorphosis One" by Philip Glass \- This minimalist composition with its repetitive patterns and gradual shifts can evoke a sense of introspection and contemplation about the challenges and opportunities in education.  
+  * "Spiegel im Spiegel" by Arvo Pärt \- A hauntingly beautiful piece for violin and piano that invites reflection on both personal experiences and broader societal issues related to education.  
+  * "Gymnopédie No. 1" by Erik Satie \- This melancholic piano piece can provide a space for expressing frustrations or anxieties related to learning or the education system.  
+  * "Adagio for Strings" by Samuel Barber \- This emotional and powerful piece can inspire movement that explores the full range of human experience in the context of education, from joy and triumph to struggle and disappointment.  
+  * "Nuvole Bianche" by Ludovico Einaudi \- This piano piece evokes a sense of hope and possibility, encouraging students to express their dreams and aspirations for their education.  
+* *Energetic and Dynamic*  
+  * "Stomp" by the Blue Man Group \- This percussion-based piece is full of energy and rhythm, inspiring dynamic movements and creative expression.  
+  * "Libertango" by Astor Piazzolla \- This tango-infused composition with its driving rhythm and dramatic shifts can be used to explore the challenges and triumphs of the learning process.  
+  * "Oogway Ascends" by Hans Zimmer (from Kung Fu Panda) \- This epic orchestral piece evokes a sense of overcoming obstacles and achieving personal growth, relevant to the theme of education.  
+  * "Run Boy Run" by Woodkid \- This intense and cinematic track with its building momentum can inspire powerful movements that express determination and resilience in the face of educational challenges.  
+  * "In the Hall of the Mountain King" by Edvard Grieg \- This dramatic and energetic piece can be used to explore the excitement and challenges of learning and pushing one's boundaries.	
+
+If comfortable, students can briefly share a movement or gesture that represents a key feeling about their education.
+
+**Reflection and Summary**  
+Have students reflect on their learning experience through discussion or writing.  
+Ask guiding questions like:
+
+* What emotions did you connect with while improvising the different scenarios, both the struggles and the solutions?  
+* Did creating and witnessing the “Learning Machine” activity help you visualize the interconnectedness and potential breakdowns within an educational system?  
+* How did using your body to represent specific challenges and solutions make the abstract concepts of equitable and inclusive education more tangible?  
+* What did you learn about the power of nonverbal communication to convey complex ideas and emotions related to education?  
+* What did you learn about the complexities of the barriers to quality education and the creativity needed to find solutions?  
+* How can the immediacy and emotional impact of live theater be used to engage audiences with the importance of Global Goal 4?  
+* What role did spontaneity and “thinking on your feet” play in your understanding of the challenges and possibilities within education?  
+* Did any of the improvised scenarios resonate with your own experiences or observations within the education system?  
+* What are some key takeaways from the different scenes presented today that you think are important for creating a more inclusive and equitable education system?  
+* How has this lesson influenced your thinking about yoru own role in advocating for quality education for all?
+
+**Assessment**
+
+* Consistent and enthusiastic involvement in all phases of the lesson, including the “Learning Machine” warm-up, group improvisations (challenges and triumphs), and class discussions.  
+* Comprehension of Global Goal 4 and its targets and core concepts (e.g., quality education, early childhood development, inclusivity, teacher training). This will be evidenced through the thematic content and the specific movement/vocal choices within the improvisations.  
+* Originality and effectiveness in using improvisational movement and sound (e.g., body percussion, vocalizations, gestures, facial expressions) to portray the educational challenges and solutions.  
+* How clearly and powerfully the improvised scenes communicated the intended message about the Global Goal 4 concept. Did the performance successfully evoke thought or emotion in the audience?  
+* Ability to work effectively within the small groups, contributing ideas, listening and responding to others’ cues, and collaborating cohesively to create the improvised scenes. This also includes the adaptability during the “breakdown and repair” phase of the Learning Machine.  
+* Willingness and ability to use entire bodies, postures, and gestures to convey emotions and situations, emphasizing physicality in the improvisations.  
+* Nuance and depth of understanding demonstrated in reflections, particularly concerning the role of embodied learning in understanding educational equity.

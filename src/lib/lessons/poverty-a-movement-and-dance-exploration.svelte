@@ -1,0 +1,29 @@
+<script lang="ts">
+	import MaterialsList from './components/MaterialsList.svelte';
+	import ReflectionQuestions from './components/ReflectionQuestions.svelte';
+	import AssessmentCriteria from './components/AssessmentCriteria.svelte';
+	import CustomSection from './components/CustomSection.svelte';
+	import { getSdgColor } from '$lib/utils/sdg-colors';
+
+	interface Props {
+		sdgColor?: string;
+	}
+
+	let { sdgColor = getSdgColor(1) }: Props = $props();
+</script>
+
+<div class="lesson-content">
+
+	<MaterialsList materials={[{"name":"Open space for movement","isOptional":false},{"name":"Audio","isOptional":false},{"name":"Whiteboard or large chart paper","isOptional":false},{"name":"Markers","isOptional":false},{"name":"Notebooks or Paper","isOptional":false},{"name":"Pens/Pencils","isOptional":false},{"name":"\\[Optional\\] scarves or fabric for movement exploration","isOptional":true}]} {sdgColor} />
+
+	<CustomSection title={"Poverty: A Movement and Dance Exploration"} content={"<strong>(30-60 MINUTES)</strong>"} {sdgColor} />
+
+	<CustomSection title={"Movement Exploration"} content={"<strong>Poverty Tableau:</strong> Divide students into small groups and assign each group a specific aspect of poverty. Have them create a frozen tableau that visually represents their assigned theme. Encourage them to use their bodies to convey emotions and experiences associated with poverty, utilizing the same or similar music as in the previous exercise.<br>Examples include:<br><em> <strong>Hunger:</strong> Students crouch down with empty bowls, expressing the pain and desperation of food insecurity.<br></em> <strong>Homelessness:</strong> Students huddle together for warmth, depicting the vulnerability and insecurity of those without shelter.\n<ul>\n<li><strong>Lack of Education:</strong> Students sit with heads in their hands, symbolizing the frustration of limited educational opportunities.</li>\n</ul>"} {sdgColor} />
+
+	<CustomSection title={"Cool Down"} content={"<p>Lead a gentle cool-down, encouraging students to focus on their breathing and release any tension in their bodies. Examples:<br><em> <strong>Deep Breathing:</strong> Guide students through a series of deep breaths, focusing on inhaling calmness and exhaling tension.<br></em> <strong>Gentle Stretching:</strong> Slowly stretch different muscle groups to release any remaining tightness or discomfort.<br><em> <strong>Mindfulness:</strong> Encourage students to close their eyes and focus on their body sensations, promoting relaxation and self-awareness.<br></em> <strong>Visualization:</strong> Guide students to visualize a peaceful scene or imagine themselves floating on water, fostering a sense of tranquility.</p>"} {sdgColor} />
+
+	<ReflectionQuestions questions={["How did physically embodying the struggles and resilience associated with poverty through movement deepen your understanding of the issue?","What emotions did you connect with in your body while exploring the different movement prompts, and how did those emotions relate to the experiences of poverty?","Did creating and witnessing the tableaux help you visualize the realities of poverty in a new or more impactful way?","How did the contrast between the \"struggle\" and \"resilience\" movements feel in your body?","What did your body communicate about the weight or the potential for overcoming poverty that words alone might not express?","What aspects of poverty or resilience do you think about most effectively communicated through non-verbal expression?","How can the collective movement of a group, like in our improvisations or partner work, symbolize community support or the shared struggle against poverty?","What kind of impact do you think a dance performance about poverty could have on an audience?","How can the universality of movement help bridge the gap between those who have experienced poverty and those who haven't?","Did any of the movement explorations resonate with you on a personal level, perhaps connection to feelings of struggle or the need for resilience in your own life?","What did you learn about the strength and dignity of individuals facing poverty through this embodied exploration?","How might your understanding of poverty, shaped by this movement experience, influence your willingness to take action?","What kind of message about poverty and resilience do you think could be effectively conveyed through dance to a wider audience?","What role do you see for creative expression, like dance, in advocating for social change and addressing issues like poverty?"]} {sdgColor} />
+
+	<AssessmentCriteria criteria={["Consistent and enthusiastic involvement in all phases of the lesson, including the warm-up, poverty tableau, resilience improvisation, partner/group choreography, and class discussions.","Comprehension of Global Goal 1, targets and core concepts, as demonstrated through the symbolism and intention within the movement pieces (tableaux, improvisations, choreography) and verbal explanations.","Originality and effectiveness in designing and performing movements that vividly represent specific aspects of poverty (e.g., hunger, homelessness, lack of education) and resilience (e.g., hope, determination, community support).","How clearly and powerfully the movement pieces communicated the intended message about poverty and resilience. Did the dance successfully evoke thought or emotion in the audience?","Ability to work effectively within the small groups or pairs, contributing ideas, respecting diverse interpretations, and collaborating cohesively during the choreography process.","Willingness to use entire bodies and facial expressions to convey emotions and experiences associated with poverty and resilience.","Nuance and depth of understanding demonstrated in reflections, particularly concerning the role of embodied learning in understanding the human experience of poverty."]} {sdgColor} />
+
+</div>
