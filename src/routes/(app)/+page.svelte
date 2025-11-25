@@ -52,7 +52,7 @@
 <Grades />
 
 <!-- Student Photo Section -->
-<section class="relative h-[545px] overflow-hidden pt-12">
+<section class="relative h-[300px] sm:h-[400px] lg:h-[545px] overflow-hidden pt-6 sm:pt-8 lg:pt-12">
 	<img
 		src="/Home/home-desktop-faq.png"
 		alt="Students engaging in arts education"
@@ -61,10 +61,10 @@
 </section>
 
 <!-- FAQ Section -->
-<section class="bg-white py-[80px] px-6">
+<section class="bg-white py-12 sm:py-16 lg:py-[80px] px-4 sm:px-6 overflow-hidden">
 	<div class="max-w-7xl mx-auto">
 		<h2
-			class="text-[48px] font-normal leading-[0.9] tracking-[-0.48px] text-black mb-[58px]"
+			class="text-3xl sm:text-4xl lg:text-[48px] font-normal leading-[0.9] tracking-[-0.02em] lg:tracking-[-0.48px] text-black mb-8 sm:mb-12 lg:mb-[58px]"
 		>
 			FAQ's
 		</h2>
@@ -74,16 +74,16 @@
 			<div class="border-t border-black">
 				<button
 					onclick={() => toggleFaq(0)}
-					class="w-full py-6 cursor-pointer hover:bg-base-50 transition-colors"
+					class="w-full py-4 sm:py-6 cursor-pointer hover:bg-base-50 transition-colors"
 				>
-					<div class="flex items-center justify-between">
+					<div class="flex items-start sm:items-center justify-between gap-4">
 						<p
-							class="text-[24px] font-medium leading-[1.1] tracking-[-0.24px] text-black text-left"
+							class="text-lg sm:text-xl lg:text-[24px] font-medium leading-[1.1] tracking-[-0.01em] lg:tracking-[-0.24px] text-black text-left min-w-0 flex-1"
 						>
 							Who is this curriculum designed for?
 						</p>
 						<svg
-							class="w-4 h-2 transition-transform duration-300 flex-shrink-0 ml-4"
+							class="w-4 h-2 transition-transform duration-300 flex-shrink-0"
 							class:rotate-180={openFaq === 0}
 							viewBox="0 0 17 9"
 							fill="none"
@@ -99,8 +99,8 @@
 					</div>
 				</button>
 				{#if openFaq === 0}
-					<div class="pb-6 px-4">
-						<p class="text-[18px] leading-[1.5] text-black/80">
+					<div class="pb-4 sm:pb-6 px-2 sm:px-4">
+						<p class="text-sm sm:text-base lg:text-[18px] leading-[1.5] text-black/80">
 							This curriculum is designed for educators working
 							with students in grades 5-12. It's perfect for
 							classroom teachers, arts educators, and community
@@ -116,16 +116,16 @@
 			<div class="border-t border-black">
 				<button
 					onclick={() => toggleFaq(1)}
-					class="w-full py-6 cursor-pointer hover:bg-base-50 transition-colors"
+					class="w-full py-4 sm:py-6 cursor-pointer hover:bg-base-50 transition-colors"
 				>
-					<div class="flex items-center justify-between">
+					<div class="flex items-start sm:items-center justify-between gap-4">
 						<p
-							class="text-[24px] font-medium leading-[1.1] tracking-[-0.24px] text-black text-left"
+							class="text-lg sm:text-xl lg:text-[24px] font-medium leading-[1.1] tracking-[-0.01em] lg:tracking-[-0.24px] text-black text-left min-w-0 flex-1"
 						>
 							How are the lessons structured?
 						</p>
 						<svg
-							class="w-4 h-2 transition-transform duration-300 flex-shrink-0 ml-4"
+							class="w-4 h-2 transition-transform duration-300 flex-shrink-0"
 							class:rotate-180={openFaq === 1}
 							viewBox="0 0 17 9"
 							fill="none"
@@ -141,8 +141,8 @@
 					</div>
 				</button>
 				{#if openFaq === 1}
-					<div class="pb-6 px-4">
-						<p class="text-[18px] leading-[1.5] text-black/80">
+					<div class="pb-4 sm:pb-6 px-2 sm:px-4">
+						<p class="text-sm sm:text-base lg:text-[18px] leading-[1.5] text-black/80">
 							Each of the 17 UN Sustainable Development Goals has
 							5 corresponding lessons, one for each art form:
 							Music, Visual Arts, Creative Writing,
@@ -158,16 +158,16 @@
 			<div class="border-t border-black">
 				<button
 					onclick={() => toggleFaq(2)}
-					class="w-full py-6 cursor-pointer hover:bg-base-50 transition-colors"
+					class="w-full py-4 sm:py-6 cursor-pointer hover:bg-base-50 transition-colors"
 				>
-					<div class="flex items-center justify-between">
+					<div class="flex items-start sm:items-center justify-between gap-4">
 						<p
-							class="text-[24px] font-medium leading-[1.1] tracking-[-0.24px] text-black text-left"
+							class="text-lg sm:text-xl lg:text-[24px] font-medium leading-[1.1] tracking-[-0.01em] lg:tracking-[-0.24px] text-black text-left min-w-0 flex-1"
 						>
 							Are there grade-specific versions of the lessons?
 						</p>
 						<svg
-							class="w-4 h-2 transition-transform duration-300 flex-shrink-0 ml-4"
+							class="w-4 h-2 transition-transform duration-300 flex-shrink-0"
 							class:rotate-180={openFaq === 2}
 							viewBox="0 0 17 9"
 							fill="none"
@@ -183,8 +183,8 @@
 					</div>
 				</button>
 				{#if openFaq === 2}
-					<div class="pb-6 px-4">
-						<p class="text-[18px] leading-[1.5] text-black/80">
+					<div class="pb-4 sm:pb-6 px-2 sm:px-4">
+						<p class="text-sm sm:text-base lg:text-[18px] leading-[1.5] text-black/80">
 							Yes! Each lesson includes grade-specific learning
 							objectives tailored for both grades 5-8 and grades
 							9-12. This ensures that the content is
@@ -199,16 +199,16 @@
 			<div class="border-t border-b border-black">
 				<button
 					onclick={() => toggleFaq(3)}
-					class="w-full py-6 cursor-pointer hover:bg-base-50 transition-colors"
+					class="w-full py-4 sm:py-6 cursor-pointer hover:bg-base-50 transition-colors"
 				>
-					<div class="flex items-center justify-between">
+					<div class="flex items-start sm:items-center justify-between gap-4">
 						<p
-							class="text-[24px] font-medium leading-[1.1] tracking-[-0.24px] text-black text-left"
+							class="text-lg sm:text-xl lg:text-[24px] font-medium leading-[1.1] tracking-[-0.01em] lg:tracking-[-0.24px] text-black text-left min-w-0 flex-1"
 						>
 							Is this curriculum free to use?
 						</p>
 						<svg
-							class="w-4 h-2 transition-transform duration-300 flex-shrink-0 ml-4"
+							class="w-4 h-2 transition-transform duration-300 flex-shrink-0"
 							class:rotate-180={openFaq === 3}
 							viewBox="0 0 17 9"
 							fill="none"
@@ -224,8 +224,8 @@
 					</div>
 				</button>
 				{#if openFaq === 3}
-					<div class="pb-6 px-4">
-						<p class="text-[18px] leading-[1.5] text-black/80">
+					<div class="pb-4 sm:pb-6 px-2 sm:px-4">
+						<p class="text-sm sm:text-base lg:text-[18px] leading-[1.5] text-black/80">
 							Yes! All of our curriculum materials are completely
 							free to access and use. We believe in making quality
 							arts education accessible to all educators and

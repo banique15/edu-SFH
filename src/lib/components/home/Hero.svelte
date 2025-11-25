@@ -27,22 +27,22 @@
 
 <!-- Hero Section -->
 <section
-    class="z-10 relative min-h-[400px] md:min-h-[600px] lg:min-h-[771px] overflow-hidden bg-gradient-to-br from-[#fdf9f1] to-[#f5f0e8] lg:-mt-[200px] px-6 lg:py-12"
+    class="z-10 relative min-h-[400px] md:min-h-[600px] lg:min-h-[771px] overflow-hidden bg-gradient-to-br from-[#fdf9f1] to-[#f5f0e8] lg:-mt-[200px] px-4 sm:px-6 lg:py-12"
 >
     <div
-        class="flex flex-col md:flex-row justify-between max-w-7xl mx-auto pt-12 md:pt-20 lg:pt-[220px] pb-8 lg:pb-0"
+        class="flex flex-col md:flex-row justify-between max-w-7xl mx-auto pt-12 md:pt-20 lg:pt-[220px] pb-8 lg:pb-0 overflow-hidden"
     >
         <!-- Hero content -->
         <div
-            class="relative z-10 w-full md:w-auto md:pt-[66px] md:max-w-[628px]"
+            class="relative z-10 w-full md:w-auto md:pt-[66px] md:max-w-[628px] min-w-0"
         >
             <h1
-                class="text-[#349552] text-6xl sm:text-6xl md:text-6xl lg:text-[74px] font-normal leading-[0.9] tracking-[-0.02em] md:tracking-[-0.08em] lg:tracking-[-2.1px]"
+                class="text-[#349552] text-4xl sm:text-5xl md:text-6xl lg:text-[74px] font-normal leading-[0.9] tracking-[-0.02em] md:tracking-[-0.08em] lg:tracking-[-2.1px] break-words"
             >
                 Inspire Change and Global Citizenship Through the Arts.
             </h1>
             <p
-                class="text-black text-base sm:text-xl md:text-xl lg:text-[20px] leading-[1.23] tracking-[-0.01em] md:tracking-[-0.02em] lg:tracking-[-0.24px] max-w-full lg:max-w-[532px] mt-4 sm:mt-6 lg:mt-8"
+                class="text-black text-sm sm:text-base md:text-xl lg:text-[20px] leading-[1.23] tracking-[-0.01em] md:tracking-[-0.02em] lg:tracking-[-0.24px] max-w-full lg:max-w-[532px] mt-4 sm:mt-6 lg:mt-8"
             >
                 Empower the next generation to explore and address global issues
                 using the Sing for Hope Global Goals Arts Curriculum. Aligned
@@ -56,7 +56,7 @@
 
         <!-- Hero Art Section with SVG Shape Mask -->
         <div
-            class="w-full max-w-lg md:w-auto flex justify-center md:justify-end mt-6 md:mt-0 relative"
+            class="w-full max-w-sm sm:max-w-md md:max-w-lg md:w-auto flex justify-center md:justify-end mt-6 md:mt-0 relative flex-shrink-0"
         >
             <!-- Mobile SVG Mask -->
             <svg

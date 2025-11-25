@@ -66,9 +66,14 @@ body {
    Global UX/UI Enhancements
    ============================================ */
 
-/* Smooth scrolling for better UX */
+/* Smooth scrolling for better UX and prevent horizontal overflow */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Better focus indicators for accessibility */
@@ -203,6 +208,7 @@ input:focus, textarea:focus, select:focus {
 
 /* Smooth modal backdrop */
 .modal-backdrop {
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
