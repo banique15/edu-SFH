@@ -327,79 +327,105 @@
 		</a>
 	</div>
 
-	<!-- Mobile Drawer Menu -->
-	<div class="drawer drawer-end lg:hidden z-[200]">
-		<input type="checkbox" id="mobile-drawer" class="drawer-toggle" checked={mobileMenuOpen} onchange={(e) => mobileMenuOpen = e.currentTarget.checked} />
-		<div class="drawer-side">
-			<label for="mobile-drawer" class="drawer-overlay" onclick={closeMobileMenu}></label>
-			<ul class="menu p-4 w-80 min-h-full bg-base-100 text-base-content">
-				<!-- Close button -->
-				<li class="mb-4">
-					<button onclick={closeMobileMenu} class="btn btn-ghost btn-sm justify-start">
-						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-						</svg>
-						Close
-					</button>
-				</li>
+	<!-- Mobile Menu Overlay -->
+	{#if mobileMenuOpen}
+		<div class="fixed inset-0 z-[200] lg:hidden">
+			<!-- Overlay background -->
+			<div class="absolute inset-0 bg-black/20" onclick={closeMobileMenu}></div>
+			
+			<!-- Menu container - simple rectangular green card -->
+			<div class="absolute top-12 w-full h-full flex justify-center pl-6 pb-6">
+				<div class="relative w-full max-w-sm">
+					<!-- Simple rounded green background -->
+					<div class="bg-[#349552] rounded-2xl pl-12 pr-8 py-12 shadow-2xl">
+						<!-- Close button -->
+						<button
+							onclick={closeMobileMenu}
+							class="absolute top-4 right-4 text-white hover:text-white/80 transition-colors"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+							</svg>
+						</button>
 
-				<!-- Navigation Links -->
-				<li>
-					<a
-						href="/curriculum"
-						onclick={closeMobileMenu}
-						class:font-bold={isActive('/curriculum')}
-					>
-						Curriculum
-					</a>
-				</li>
-				<li>
-					<a
-						href="/about"
-						onclick={closeMobileMenu}
-						class:font-bold={isActive('/about')}
-					>
-						About
-					</a>
-				</li>
+						<!-- Navigation items -->
+						<nav class="space-y-8 text-left">
+							<a
+								href="/curriculum"
+								onclick={closeMobileMenu}
+								class="block text-white text-2xl font-normal hover:text-white/80 transition-colors"
+								class:font-bold={isActive('/curriculum')}
+							>
+								Curriculum
+							</a>
+							
+							<a
+								href="/about"
+								onclick={closeMobileMenu}
+								class="block text-white text-2xl font-normal hover:text-white/80 transition-colors"
+								class:font-bold={isActive('/about')}
+							>
+								About
+							</a>
+							
+							<a
+								href="/contributors"
+								onclick={closeMobileMenu}
+								class="block text-white text-2xl font-normal hover:text-white/80 transition-colors"
+								class:font-bold={isActive('/contributors')}
+							>
+								Contributors
+							</a>
 
-				<!-- SingForHope.org link -->
-				<li>
-					<a
-						href="https://singforhope.org"
-						target="_blank"
-						rel="noopener noreferrer"
-						onclick={closeMobileMenu}
-					>
-						singforhope.org
-						<svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 4L4 12M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
-					</a>
-				</li>
+							<!-- Sign In / User Menu -->
+							{#if $authStore}
+								<div class="space-y-6 pt-4">
+									<span class="block text-white/80 text-lg">{$authStore.email}</span>
+									<a
+										href="/account"
+										onclick={closeMobileMenu}
+										class="block text-white text-2xl font-normal hover:text-white/80 transition-colors"
+									>
+										My Account
+									</a>
+									<button
+										onclick={() => { authStore.signOut(); closeMobileMenu(); }}
+										class="block text-white text-2xl font-normal hover:text-white/80 transition-colors w-full text-left"
+									>
+										Logout
+									</button>
+								</div>
+							{:else}
+								<a
+									href="/login"
+									onclick={closeMobileMenu}
+									class="block text-white text-2xl font-normal hover:text-white/80 transition-colors"
+									class:font-bold={isActive('/login')}
+								>
+									Sign In
+								</a>
+							{/if}
 
-				<li><hr class="my-2" /></li>
-
-				<!-- Sign In / User Menu -->
-				{#if $authStore}
-					<li>
-						<span class="text-sm opacity-60">{$authStore.email}</span>
-					</li>
-					<li>
-						<a href="/account" onclick={closeMobileMenu}>My Account</a>
-					</li>
-					<li>
-						<button onclick={() => { authStore.signOut(); closeMobileMenu(); }}>Logout</button>
-					</li>
-				{:else}
-					<li>
-						<a href="/signup" onclick={closeMobileMenu}>Sign Up</a>
-					</li>
-					<li>
-						<a href="/login" onclick={closeMobileMenu}>Sign In</a>
-					</li>
-				{/if}
-			</ul>
+							<!-- Separator line -->
+							<div class="border-t border-white/30 pt-8">
+								<!-- External link to singforhope.org -->
+								<a
+									href="https://singforhope.org"
+									target="_blank"
+									rel="noopener noreferrer"
+									onclick={closeMobileMenu}
+									class="inline-flex items-center gap-2 text-white/80 text-lg font-normal hover:text-white transition-colors"
+								>
+									singforhope.org
+									<svg class="w-4 h-4" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12 4L4 12M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
+	{/if}
 </header>

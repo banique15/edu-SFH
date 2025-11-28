@@ -37,12 +37,12 @@
             class="relative z-10 w-full md:w-auto md:pt-[66px] md:max-w-[628px] min-w-0"
         >
             <h1
-                class="text-[#349552] text-4xl sm:text-5xl md:text-6xl lg:text-[74px] font-normal leading-[0.9] tracking-[-0.02em] md:tracking-[-0.08em] lg:tracking-[-2.1px] break-words"
+                class="text-[#349552] text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-normal leading-[0.9] tracking-[-0.02em] md:tracking-[-0.08em] lg:tracking-[-1.6px] break-words"
             >
-                Inspire Change and Global Citizenship Through the Arts.
+                Inspire changes through the arts.
             </h1>
             <p
-                class="text-black text-sm sm:text-base md:text-xl lg:text-[20px] leading-[1.23] tracking-[-0.01em] md:tracking-[-0.02em] lg:tracking-[-0.24px] max-w-full lg:max-w-[532px] mt-4 sm:mt-6 lg:mt-8"
+                class="text-black text-lg sm:text-xl md:text-2xl lg:text-[28px] leading-[1.2] tracking-[-0.01em] md:tracking-[-0.02em] lg:tracking-[-0.3px] max-w-full lg:max-w-[532px] mt-4 sm:mt-6 lg:mt-8 font-normal"
             >
                 Empower the next generation to explore and address global issues
                 using the Sing for Hope Global Goals Arts Curriculum. Aligned
