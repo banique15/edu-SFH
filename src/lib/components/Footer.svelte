@@ -28,8 +28,134 @@
 <svelte:window onclick={handleClickOutside} />
 
 <!-- Footer -->
-<footer class="bg-gradient-to-b from-[#349552] to-[#023902] py-[77px] px-6">
-	<div class="max-w-7xl mx-auto">
+<footer class="bg-[#349552] py-10 px-6 md:py-[77px] md:px-6">
+	<!-- Mobile Footer -->
+	<div class="md:hidden max-w-md mx-auto">
+		<!-- Curriculum Title -->
+		<h3 class="text-white text-[32px] font-normal leading-[1.2] mb-8">
+			Curriculum
+		</h3>
+		
+		<!-- By Subject and By Grade sections side by side -->
+		<div class="flex gap-16 mb-12">
+			<!-- By Subject Section -->
+			<div class="flex-1 text-center">
+				<h4 class="text-white text-[20px] font-medium leading-[1.2] mb-4">
+					By Subject
+				</h4>
+				<div class="space-y-2 text-white text-[18px] font-normal leading-[1.2]">
+					<div><a href="/subjects/visual-arts" class="hover:opacity-80 transition-opacity">Visual Art</a></div>
+					<div><a href="/subjects/creative-writing" class="hover:opacity-80 transition-opacity">Creative Writing</a></div>
+					<div><a href="/subjects/dance" class="hover:opacity-80 transition-opacity">Dance & Movement</a></div>
+					<div><a href="/subjects/drama" class="hover:opacity-80 transition-opacity">Drama</a></div>
+					<div><a href="/subjects/music" class="hover:opacity-80 transition-opacity">Music</a></div>
+				</div>
+			</div>
+			
+			<!-- By Grade Section -->
+			<div class="flex-1">
+				<h4 class="text-white text-[20px] font-medium leading-[1.2] mb-4">
+					By Grade
+				</h4>
+				<div class="space-y-2 text-white text-[18px] font-normal leading-[1.2]">
+					<div><a href="/curriculum?grade=5-8" class="hover:opacity-80 transition-opacity">Grades 5-8</a></div>
+					<div><a href="/curriculum?grade=9-12" class="hover:opacity-80 transition-opacity">Grades 9-12</a></div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- By Global Goal Section -->
+		<div class="mb-8">
+			<h4 class="text-white text-[20px] font-medium leading-[1.2] mb-4">
+				By Global Goal
+			</h4>
+			<div class="relative dropdown-container">
+				<button
+					type="button"
+					onclick={toggleDropdown}
+					class="w-full bg-white rounded-[8px] px-4 py-3 flex items-center justify-between cursor-pointer hover:bg-gray-100 transition-colors"
+				>
+					<span class="text-black text-[18px] font-normal leading-[1.2]">Select a goal</span>
+					<svg class="w-3 h-2 transition-transform {dropdownOpen ? 'rotate-180' : ''}" viewBox="0 0 13 7" fill="none">
+						<path
+							d="M1 1L6.5 6L12 1"
+							stroke="black"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+					</svg>
+				</button>
+
+				{#if dropdownOpen}
+					<div class="absolute z-50 w-full mt-2 bg-white rounded-[8px] shadow-lg max-h-[400px] overflow-y-auto">
+						{#each $goals as goal}
+							<a
+								href="/goals/{getGoalSlug(goal)}"
+								onclick={closeDropdown}
+								class="block px-4 py-3 text-black text-[16px] hover:bg-gray-100 transition-colors border-b border-gray-100 last:border-b-0"
+							>
+								<span class="font-medium">Goal {goal.goal_number}:</span> {goal.title}
+							</a>
+						{/each}
+					</div>
+				{/if}
+			</div>
+		</div>
+		
+		<!-- About and Contributors Links -->
+		<div class="space-y-4 mb-8">
+			<div>
+				<a href="/about" class="text-white text-[24px] font-medium leading-[1.1] hover:opacity-80 transition-opacity">
+					About
+				</a>
+			</div>
+			<div>
+				<a href="/about#contributors" class="text-white text-[24px] font-medium leading-[1.1] hover:opacity-80 transition-opacity">
+					Contributors
+				</a>
+			</div>
+		</div>
+		
+		<!-- Sing for Hope Card -->
+		<div class="bg-white rounded-[15px] p-6 mb-8">
+			<div class="flex justify-between items-start mb-6">
+				<div class="flex-1 pr-4">
+					<h3 class="text-black text-[28px] font-medium leading-[1.1] mb-3">
+						Sing for Hope
+					</h3>
+					<p class="text-black text-[16px] font-normal leading-[1.3]">
+						Our creative programs bring hope, healing, and connection to millions of people in hospitals, care facilities, schools, refugee camps, transit hubs, and community spaces worldwide.
+					</p>
+				</div>
+				<div class="w-20 h-20 flex-shrink-0">
+					<img src="sfh-logo.png" alt="Sing for Hope Logo" class="w-full h-full object-contain" />
+				</div>
+			</div>
+			<a
+				href="https://singforhope.org"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-block bg-[#349552] text-white text-[18px] font-medium leading-[1.2] px-6 py-3 rounded-[25px] hover:bg-[#2d7d45] transition-colors"
+			>
+				Learn more
+			</a>
+		</div>
+		
+		<!-- Bottom Logos -->
+		<div class="flex justify-center items-center gap-6 mb-8">
+			<img src="logo1.png" alt="Sustainable Development Goals" class="h-12 w-auto object-contain" />
+			<img src="logo2.png" alt="NCAS Arts Education" class="h-12 w-auto object-contain" />
+		</div>
+		
+		<!-- Copyright -->
+		<p class="text-white/60 text-[14px] text-center leading-[1.2]">
+			Copyright ©2025 Sing for Hope, Inc. All rights reserved.
+		</p>
+	</div>
+
+	<!-- Desktop Footer -->
+	<div class="hidden md:block max-w-7xl mx-auto">
 		<div class="grid grid-cols-[200px_1fr_2fr] gap-8">
 			<!-- Curriculum Column -->
 			<div>
