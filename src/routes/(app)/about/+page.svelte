@@ -14,7 +14,7 @@
 <div class="bg-[#fdf9f1] w-full">
 	<!-- Main Content Container -->
 	<div
-		class="flex flex-col gap-12 md:gap-16 lg:gap-20 xl:gap-[120px] items-center pt-6 md:pt-8 pb-12 md:pb-16 max-w-7xl mx-auto "
+		class="flex flex-col gap-12 md:gap-16 lg:gap-20 xl:gap-[120px] items-center pt-6 md:pt-8 pb-12 md:pb-16 max-w-7xl mx-auto px-4"
 	>
 		<!-- Hero Image -->
 		<div class="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[336px] rounded-[20px] overflow-hidden">
@@ -26,26 +26,25 @@
 		</div>
 
 		<!-- Section 1: Main Headline & Goals -->
-		<div class="flex flex-col gap-8 md:gap-10 lg:gap-[54px] items-center w-full max-w-4xl">
+		<div class="flex flex-col gap-12 md:gap-10 lg:gap-[54px] items-center w-full max-w-sm md:max-w-4xl">
 			<!-- Main Headline -->
 			<h1
-				class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[84px] leading-[0.9] tracking-[-0.03em] md:tracking-[-0.05em] lg:tracking-[-0.08em] xl:tracking-[-2.1px] text-[#349552] text-center font-normal w-full"
+				class="text-[32px] md:text-5xl lg:text-6xl xl:text-[84px] leading-none md:leading-[0.9] tracking-[-0.32px] md:tracking-[-0.05em] lg:tracking-[-0.08em] xl:tracking-[-2.1px] text-[#349552] text-center font-normal w-full max-w-[325px] md:max-w-none"
 			>
-				What if every young person had the power to build a better
-				world?
+				What if every young person had the power to build a better world?
 			</h1>
 
 			<!-- Header & Copy -->
 			<div
-				class="flex flex-col gap-3 md:gap-[12px] items-center text-center w-full max-w-2xl"
+				class="flex flex-col gap-[6px] md:gap-[12px] items-center text-center w-full max-w-[351px] md:max-w-2xl"
 			>
 				<p
-					class="text-lg sm:text-xl md:text-2xl lg:text-[28px] leading-none tracking-[-0.01em] md:tracking-[-0.02em] lg:tracking-[-0.28px] text-black font-medium"
+					class="text-[20px] md:text-2xl lg:text-[28px] leading-[1.2] md:leading-none tracking-normal md:tracking-[-0.02em] lg:tracking-[-0.28px] text-black font-medium max-w-[320px] md:max-w-none"
 				>
 					This is the question that inspired the Sing for Hope Global
 					Goals Arts Curriculum.
 				</p>
-				<p class="text-base sm:text-lg md:text-xl lg:text-[24px] leading-[1.3] text-black">
+				<p class="text-[16px] md:text-xl lg:text-[24px] leading-[1.2] md:leading-[1.3] tracking-[-0.16px] md:tracking-normal text-black max-w-[320px] md:max-w-none">
 					The United Nations' 17 Global Goals for Sustainable
 					Development stand as a powerful blueprint for peace and
 					prosperity, yet they presented a unique opportunity for
@@ -55,12 +54,12 @@
 
 			<!-- Goal Blocks Grid -->
 			<div
-				class="flex flex-wrap gap-2 md:gap-[10px] items-start justify-center w-full max-w-3xl"
+				class="flex flex-wrap gap-[7px] md:gap-[10px] items-start justify-center w-full max-w-[353px] md:max-w-3xl"
 			>
 				{#each Array(17) as _, i}
 					{@const goalNum = i + 1}
 					<div
-						class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-[89.204px] lg:h-[89.204px] rounded-lg md:rounded-xl lg:rounded-[17.736px] p-0 flex flex-col items-center justify-center"
+						class="w-[52.75px] h-[52.75px] md:w-20 md:h-20 lg:w-[89.204px] lg:h-[89.204px] rounded-[10px] md:rounded-xl lg:rounded-[17.736px] p-[9.591px] md:p-0 flex flex-col items-center justify-center"
 						style="background-color: {getSdgColor(goalNum)}"
 					>
 						<img
@@ -74,7 +73,7 @@
 
 			<!-- Bottom Text -->
 			<p
-				class="text-base sm:text-lg md:text-xl lg:text-[24px] leading-[1.3] text-black text-center w-full max-w-2xl"
+				class="text-[16px] md:text-xl lg:text-[24px] leading-[1.2] md:leading-[1.3] tracking-[-0.16px] md:tracking-normal text-black text-center w-full max-w-[320px] md:max-w-2xl"
 			>
 				With artists consistently at the forefront of movements for
 				social justice and peace, it became clear that the Global Goals
@@ -83,63 +82,59 @@
 		</div>
 
 		<!-- Section 2: Text & Subjects -->
-		<div class="w-full px-4 sm:px-6 md:px-12 lg:px-[78px] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-8">
-			<p class="text-base sm:text-lg md:text-xl lg:text-[24px] leading-[1.3] text-black w-full lg:w-auto lg:max-w-md">
+		<div class="w-full flex flex-col gap-12 md:gap-8 lg:flex-row items-center lg:items-center justify-between lg:px-[78px]">
+			<p class="text-[16px] md:text-xl lg:text-[24px] leading-[1.2] md:leading-[1.3] tracking-[-0.16px] md:tracking-normal text-black text-center lg:text-left w-full lg:w-auto lg:max-w-md max-w-[320px] md:max-w-none">
 				Our curriculum was born from this conviction: to give a creative
 				voice to the Global Goals and share them through the
 				transformative power of the arts.
 			</p>
 
 			<!-- Subject Blocks -->
-			<div class="flex flex-col gap-3 w-full lg:w-auto">
-				<div class="flex flex-wrap gap-2 md:gap-[10px] w-full lg:w-[632px]">
-					<div
-						class="bg-[#349552] rounded-[20px] h-auto min-h-[60px] md:h-[88px] px-4 md:px-6 lg:px-[24px] py-3 md:py-4 lg:py-[24px] flex items-center"
+			<div class="flex flex-wrap gap-[7px] md:gap-[10px] items-start justify-center w-full max-w-[353px] md:max-w-none lg:w-auto">
+				<div
+					class="bg-[#349552] rounded-[15px] md:rounded-[20px] h-[56px] md:h-[88px] px-[18.759px] md:px-[24px] py-[18.759px] md:py-[24px] flex items-center w-[203px] md:w-auto"
+				>
+					<p
+						class="text-[25.013px] md:text-3xl lg:text-[34px] leading-none tracking-[-0.2501px] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white whitespace-nowrap"
 					>
-						<p
-							class="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-none tracking-[-0.02em] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white"
-						>
-							Creative Writing
-						</p>
-					</div>
-					<div
-						class="bg-[#19486a] rounded-[20px] h-auto min-h-[60px] md:h-[88px] px-4 md:px-6 lg:px-[24px] py-3 md:py-4 lg:py-[24px] flex items-center"
-					>
-						<p
-							class="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-none tracking-[-0.02em] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white"
-						>
-							Visual Art
-						</p>
-					</div>
-					<div
-						class="bg-[#dd1367] rounded-[20px] h-auto min-h-[60px] md:h-[88px] px-4 md:px-6 lg:px-[24px] py-3 md:py-4 lg:py-[24px] flex items-center"
-					>
-						<p
-							class="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-none tracking-[-0.02em] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white"
-						>
-							Drama
-						</p>
-					</div>
+						Creative Writing
+					</p>
 				</div>
-				<div class="flex flex-wrap gap-2 md:gap-[10px] w-full lg:w-[632px]">
-					<div
-						class="bg-[#ff3a21] rounded-[20px] h-auto min-h-[60px] md:h-[88px] px-4 md:px-6 lg:px-[24px] py-3 md:py-4 lg:py-[24px] flex items-center"
+				<div
+					class="bg-[#19486a] rounded-[15px] md:rounded-[20px] h-[56px] md:h-[88px] px-[18.759px] md:px-[24px] py-[18.759px] md:py-[24px] flex items-center w-[142px] md:w-auto"
+				>
+					<p
+						class="text-[25.013px] md:text-3xl lg:text-[34px] leading-none tracking-[-0.2501px] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white whitespace-nowrap"
 					>
-						<p
-							class="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-none tracking-[-0.02em] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white"
-						>
-							Music
-						</p>
-					</div>
-					<div
-						class="bg-[#26bde2] rounded-[20px] h-auto min-h-[60px] md:h-[88px] px-4 md:px-6 lg:px-[24px] py-3 md:py-4 lg:py-[24px] flex items-center"
+						Visual Art
+					</p>
+				</div>
+				<div
+					class="bg-[#dd1367] rounded-[15px] md:rounded-[20px] h-[57px] md:h-[88px] px-[18.759px] md:px-[24px] py-[18.759px] md:py-[24px] flex items-center w-[156px] md:w-auto"
+				>
+					<p
+						class="text-[25.013px] md:text-3xl lg:text-[34px] leading-none tracking-[-0.2501px] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white whitespace-nowrap"
 					>
-						<p
-							class="text-xl sm:text-2xl md:text-3xl lg:text-[34px] leading-none tracking-[-0.02em] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white"
-						>
-							Dance & Movement
-						</p>
-					</div>
+						Drama
+					</p>
+				</div>
+				<div
+					class="bg-[#ff3a21] rounded-[15px] md:rounded-[20px] h-[57px] md:h-[88px] px-[18.759px] md:px-[24px] py-[18.759px] md:py-[24px] flex items-center w-[189px] md:w-auto"
+				>
+					<p
+						class="text-[25.013px] md:text-3xl lg:text-[34px] leading-none tracking-[-0.2501px] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white whitespace-nowrap"
+					>
+						Music
+					</p>
+				</div>
+				<div
+					class="bg-[#26bde2] rounded-[15px] md:rounded-[20px] h-[57px] md:h-[88px] px-[18.759px] md:px-[24px] py-[18.759px] md:py-[24px] flex items-center w-[353px] md:w-auto"
+				>
+					<p
+						class="text-[25.013px] md:text-3xl lg:text-[34px] leading-none tracking-[-0.2501px] md:tracking-[-0.03em] lg:tracking-[-0.44px] text-white whitespace-nowrap"
+					>
+						Dance & Movement
+					</p>
 				</div>
 			</div>
 		</div>
