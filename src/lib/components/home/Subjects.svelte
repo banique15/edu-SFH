@@ -1,7 +1,7 @@
 <!-- Lessons by Subject Section -->
 <section class="bg-[#fdf9f1] overflow-hidden">
     <!-- Mobile Layout (based on Figma design) -->
-    <div class="block md:hidden relative w-full min-h-[1400px]">
+    <div class="block md:hidden relative w-full min-h-[1400px] max-w-md mx-auto">
         <!-- Title -->
         <h2 class="absolute font-normal text-[32px] leading-none text-black top-[40px] left-[20px] tracking-[-0.32px] w-[331px] h-[40px]">
             Lessons by Subject
@@ -51,7 +51,7 @@
             <svg class="absolute inset-0 w-full h-full" viewBox="0 0 353 229" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                 <path d="M1.39551e-05 179.502C1.49208e-05 168.456 8.95433 159.502 20 159.502L255.194 159.502C266.24 159.502 275.194 150.548 275.194 139.502L275.194 20C275.194 8.9543 284.149 -1.14175e-05 295.194 -1.04519e-05L333.311 -1.74846e-06C344.357 -7.8281e-07 353.311 8.95432 353.311 20L353.311 208.126C353.311 219.172 344.357 228.126 333.311 228.126L20 228.126C8.95432 228.126 7.8281e-07 219.172 1.74846e-06 208.126L1.39551e-05 179.502Z" fill="#FF3A21"/>
             </svg>
-            <p class="absolute font-normal text-[48px] leading-[0.9] text-white bottom-[60px] left-1/2 transform -translate-x-1/2 tracking-[-0.48px] w-[200px] h-[44px] z-20 text-center">
+            <p class="absolute font-normal text-[48px] leading-[0.9] text-white bottom-[15px] left-1/2 transform -translate-x-1/2 tracking-[-0.48px] w-[200px] h-[44px] z-20 text-center">
                 Music
             </p>
             <div class="absolute top-0 left-0 w-[270px] h-[150px] rounded-[14px] overflow-hidden z-10">

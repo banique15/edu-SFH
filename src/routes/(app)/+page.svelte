@@ -52,7 +52,7 @@
 <Grades />
 
 <!-- Student Photo Section -->
-<section class="relative h-[300px] sm:h-[400px] lg:h-[545px] overflow-hidden pt-6 sm:pt-8 lg:pt-12">
+<section class="relative h-[300px] sm:h-[400px] lg:h-[545px] overflow-hidden pt-6 sm:pt-8 lg:pt-12 max-w-7xl mx-auto">
 	<img
 		src="/Home/home-desktop-faq.png"
 		alt="Students engaging in arts education"
